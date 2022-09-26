@@ -1,0 +1,21 @@
+@import 'variables.scss';
+
+@mixin organizandoNav {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(aqua, gray, aqua, gray);
+}
+
+@mixin botones($bg-primary) {
+    background-color: $bg-primary;
+    color: black;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 120px;
+    box-shadow: 10px 10px 5px lightblue inset;
+}
+
+@mixin footerColor(){
+    background:linear-gradient(aqua, aqua, gray) ;
+}
